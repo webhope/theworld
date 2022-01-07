@@ -1,0 +1,25 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "Este es un directorio para aprender Git y Node",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+ "start": "npm run lite",   "test": "echo \"Error: no test specified\" && exit 1"
+, "lite": "lite-server"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webhope/theworld.git"
+  },
+  "author": "Diana Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webhope/theworld/issues"
+  },
+  "homepage": "https://github.com/webhope/theworld#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
